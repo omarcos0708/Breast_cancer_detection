@@ -19,8 +19,27 @@ def home():
 
 # Classifica custo (consumo do modelo)
 @app.get('/predict')
-def predict(radius_mean: float,texture_mean: float,perimeter_mean: float,area_mean: float,smoothness_mean: float,compactness_mean: float,concavity_mean: float,concavepoints_mean:float,symmetry_mean: float,fractal_dimension_mean: float):
-    df_input = pd.DataFrame([dict(radius_mean=radius_mean,texture_mean=texture_mean,perimeter_mean=perimeter_mean,area_mean=area_mean,smoothness_mean=smoothness_mean,compactness_mean=compactness_mean,concavity_mean=concavity_mean,concavepoints_mean=concavepoints_mean,symmetry_mean=symmetry_mean,fractal_dimension_mean=fractal_dimension_mean)])
+def predict(radius_mean: float,
+    texture_mean: float,
+    perimeter_mean: float,
+    area_mean: float,
+    smoothness_mean: float,
+    compactness_mean: float,
+    concavity_mean: float,
+    concavepoints_mean:float,
+    symmetry_mean: float,
+    fractal_dimension_mean: float):
+
+    df_input = pd.DataFrame([dict(radius_mean=radius_mean,
+    texture_mean=texture_mean,
+    perimeter_mean=perimeter_mean,
+    area_mean=area_mean,
+    smoothness_mean=smoothness_mean,
+    compactness_mean=compactness_mean,
+    concavity_mean=concavity_mean,
+    concavepoints_mean=concavepoints_mean,
+    symmetry_mean=symmetry_mean,
+    fractal_dimension_mean=fractal_dimension_mean)])
     output = model.predict(df_input)[0]
     return output
 

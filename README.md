@@ -9,6 +9,7 @@ No âmbito mais amplo, nossa pesquisa contribui para uma sociedade mais saudáve
 ### USO:
 Lemnbre-se que para utilizar o projeto a API do mesmo deve esta alocada em algum serviçio de nuvem como por exemplo AWS ou AZURE,
 Minha indicação é que voce utilize a biblioteca Request do Python com o seguintes codigos:
+
 ![image](https://github.com/omarcos0708/Deteccao-de-Cancer-de-Mama/assets/101226989/111c0ac5-43c0-4f53-8819-5d2e25823ded)
 
 Alem disso é bom ter em mente as features que foram escolhidas para o modelo que no caso deste lhe dou o seguinte exemplo de uso:

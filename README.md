@@ -36,8 +36,10 @@ As seguintes bibliotecas foram utilizadas no processo de contrução do modelo:
 ### Resultados:
 #### Matriz de confusão:
 ![image](https://github.com/omarcos0708/Deteccao-de-Cancer-de-Mama/assets/101226989/6ae843b8-4db3-49ff-831c-4988b43d1acf)
+
 #### Loss e Acurácia
 ![image](https://github.com/omarcos0708/Deteccao-de-Cancer-de-Mama/assets/101226989/c5fdda35-da0d-47d6-8c6e-a95defc83323)
+
 A Matriz de confusão demonstra muito bem a peformace do modelo com dados que nunca haviam sido vistos pelo menos, estatisticamente o modelo performa de maneira precisa e é sim possivel utilizar suas saidas/respostas para diagnóstico de cancer de mama baseado nas metricas e medidas dos tumores ou nódulos.
 
 Outras Métricas como o Loss e Acuracia descrevem a precisao e erros do modelo, ja que o mesmo se trata de um modelo de classificação a Acuracia é a principal metrica de avaliação alem da matiz de confusão

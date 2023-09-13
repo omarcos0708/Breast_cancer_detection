@@ -1,5 +1,6 @@
 # Detecção de Câncer de Mama
-
+## Deploy com Streamlit:
+https://deteccao-de-cancer-de-mama-mxvvpg3tbmj53g9happahsp.streamlit.app
 ### Descrição do Projeto:
 
 O diagnóstico precoce é crucial para o sucesso do tratamento do câncer de mama. Com o nosso projeto inovador, estamos capacitando médicos e profissionais de saúde com uma ferramenta poderosa que utiliza dados numéricos precisos de tumores/nódulos para identificar potenciais casos de câncer em estágios iniciais. Isso não apenas aumenta as taxas de sucesso do tratamento, mas também reduz a necessidade de intervenções mais agressivas, proporcionando uma melhor qualidade de vida às pacientes.
